@@ -1,12 +1,12 @@
 {
-  "name": "chatgpt-everywhere",
-  "description": "Adds chat-gpt functionality to any textbox on the web.",
+  "name": "everywhere",
+  "description": "Chatgpt integrated on every input field on the internet.",
   "version": "0.0.1",
-  "homepage": "http://chrome.google.com/webstore",
-  "author": "Marcel Panse",
+  "homepage": "",
+  "author": "Tech",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcelpanse/chatgpt-everywhere"
+    "url": ""
   },
   "scripts": {
     "start": "xt-build -e dev -w",
