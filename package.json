@@ -6,7 +6,7 @@
   "author": "Tech",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/SpruceVedant/Everywhere"
   },
   "scripts": {
     "start": "xt-build -e dev -w",
