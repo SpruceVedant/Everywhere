@@ -30,6 +30,7 @@ chrome.runtime.onInstalled.addListener(async () => {
     title: 'Make summary',
     contexts: ['selection'],
   })
+  // context menu for execute command
   chrome.contextMenus.create({
     id: 'command',
     parentId: 'chatgpt',
