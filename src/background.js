@@ -24,7 +24,7 @@ chrome.runtime.onInstalled.addListener(async () => {
     title: 'Make shorter',
     contexts: ['selection'],
   })
-  chrome.contextMenus.create({
+  chrome.contextMenus.create({// context menu for summarize
     id: 'summarize',
     parentId: 'chatgpt',
     title: 'Make summary',
