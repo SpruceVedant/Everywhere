@@ -128,7 +128,6 @@ const runCommand = async (tab, key, command, commandOnly = false) => {
             }
           }
         }
-
         chrome.tabs.sendMessage(tab.id, {method: 'replaceSelection', data: output})
 
         if (!isFinished) {
