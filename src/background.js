@@ -141,4 +141,3 @@ const runCommand = async (tab, key, command, commandOnly = false) => {
   }
   readStream()
 }
-// readstream function
