@@ -141,3 +141,4 @@ const runCommand = async (tab, key, command, commandOnly = false) => {
   }
   readStream()
 }
+//openAI completion endpoint
