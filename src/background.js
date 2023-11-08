@@ -3,7 +3,7 @@ import {Configuration, OpenAIApi} from 'openai-edge'
 chrome.runtime.onInstalled.addListener(async () => {
   chrome.contextMenus.create({
     id: 'chatgpt',
-    title: 'ChatGPT',
+    title: 'Ask Sprunity AI',
     contexts: ['selection'],
   })
   chrome.contextMenus.create({
