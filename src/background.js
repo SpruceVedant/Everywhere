@@ -141,3 +141,5 @@ const runCommand = async (tab, key, command, commandOnly = false) => {
   }
   readStream()
 }
+//ora model
+//https://openai.a2hosted.com/chat?${queryParam}
