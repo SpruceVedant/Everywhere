@@ -31,4 +31,4 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     } else {
       sendResponse({}) // snub them.
     }
-  })
+  })//Inference endpoint callback with huggingface models
